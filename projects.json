@@ -1,0 +1,46 @@
+{
+  "projects": [
+    {
+      "title": "Beyond the Summit",
+      "type": "Documentary",
+      "thumbnail": "https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?w=800&h=500&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "description": "A documentary exploring the challenges and triumphs of mountain climbing."
+    },
+    {
+      "title": "Future Vision",
+      "type": "Commercial",
+      "thumbnail": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=800&h=500&fit=crop",
+      "videoUrl": "https://vimeo.com/148751763",
+      "description": "Tech company commercial showcasing innovative AI solutions."
+    },
+    {
+      "title": "Midnight Echo",
+      "type": "Music Video",
+      "thumbnail": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800&h=500&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "description": "Atmospheric music video featuring neon-lit urban landscapes."
+    },
+    {
+      "title": "The Last Frame",
+      "type": "Short Film",
+      "thumbnail": "https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&h=500&fit=crop",
+      "videoUrl": "https://vimeo.com/148751763",
+      "description": "Award-winning short film about a photographer's final assignment."
+    },
+    {
+      "title": "Noir Collection",
+      "type": "Fashion Campaign",
+      "thumbnail": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&h=500&fit=crop",
+      "videoUrl": "",
+      "description": "High-fashion campaign video with dramatic lighting."
+    },
+    {
+      "title": "Origin Stories",
+      "type": "Brand Film",
+      "thumbnail": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&h=500&fit=crop",
+      "videoUrl": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "description": "Brand film exploring heritage and craftsmanship."
+    }
+  ]
+}

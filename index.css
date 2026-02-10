@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  --secondary-gradient: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #0a0f1d;
+  color: #f1f5f9;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+::-webkit-scrollbar-thumb {
+  background: #4f46e5;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4338ca;
+}
+
+/* Video iframe styling */
+.video-embed {
+  position: relative;
+  padding-top: 56.25%;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+  background: #0f172a;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-embed:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.7);
+}
+
+.video-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 12px;
+}
+
+/* Form styling */
+.input-field {
+  @apply w-full px-4 py-3 bg-slate-800/50 border border-slate-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all;
+}
+
+.input-field:focus {
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+/* Button styling */
+.btn {
+  @apply px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-[1.02] active:scale-[0.98] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-darker;
+}
+
+.btn-primary {
+  @apply bg-gradient-to-r from-primary to-secondary text-white shadow-lg hover:shadow-primary/50;
+}
+
+.btn-secondary {
+  @apply bg-slate-800 text-white border border-slate-700 hover:bg-slate-700;
+}
+
+.btn-download {
+  @apply bg-gradient-to-r from-red-500 to-rose-600 text-white hover:from-red-600 hover:to-rose-700;
+}
+
+/* Section padding */
+.section {
+  @apply py-20 px-4 max-w-7xl mx-auto;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-bold text-center mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-300;
+}
+
+.section-subtitle {
+  @apply text-lg text-slate-400 text-center max-w-3xl mx-auto mb-16;
+}
+
+/* Header styles */
+.header-scrolled {
+  @apply bg-darker/95 backdrop-blur-md shadow-lg py-3;
+}
+
+/* Hero section */
+.hero-gradient {
+  background: radial-gradient(60% 60% at 50% 50%, rgba(99, 102, 241, 0.15) 0%, rgba(139, 92, 246, 0.05) 100%);
+}
